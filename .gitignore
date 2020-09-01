@@ -1,0 +1,8 @@
+deployment
+userlib
+GPUCache
+*.lock
+.svn
+*.bak
+*.launch
+.mendix-cache

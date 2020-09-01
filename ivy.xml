@@ -1,0 +1,16 @@
+<ivy-module version="2.0">
+    <info organisation="com.mendix" module="mxawsconnectors"/>
+    <configurations defaultconfmapping="default">
+        <conf name="default" description="run in modeler" extends="export"/>
+        <conf name="export" description="connector export dependencies only"/>
+    </configurations>
+    <dependencies>
+	<dependency org="com.google.cloud" name="libraries-bom" rev="8.0.0">
+		<artifact name="libraries-bom" type="pom" ext="pom"/>
+	</dependency>
+	<dependency org="com.google.cloud" name="google-cloud-vision" rev="1.99.3"/>
+	<dependency org="com.google.api-client" name="google-api-client" rev="1.30.10"/>
+	<dependency org="com.google.protobuf" name="protobuf-java" rev="3.12.2"/>
+	<dependency org="com.google.api" name="gax-grpc" rev="1.57.1"/>
+    </dependencies>
+</ivy-module>
