@@ -1,5 +1,5 @@
-# Mendix Face Detection & Blurring
-Example Project with Java Actions to do face detection and blurring
+# Mendix World 2.0 - Mendix Face Detection & Blurring
+This is an Example Project with Java Actions to do face detection and blurring that is presented at Mendix World 2.0 in more detail, check it out: https://www.mendix.com/mendix-world/
 
 # Pre-requisites & Setup
 ## Google Cloud Project with access to the Google Vision API 
